@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "web-chat"
+client_id = "4f4e8694ce1e079d581ec913c8f45138"
+application_url = "https://comparison-camel-during-ease.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://comparison-camel-during-ease.trycloudflare.com/auth/callback",
+  "https://comparison-camel-during-ease.trycloudflare.com/auth/shopify/callback",
+  "https://comparison-camel-during-ease.trycloudflare.com/api/auth/callback",
+  "https://comparison-camel-during-ease.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "retail-search-demo.myshopify.com"

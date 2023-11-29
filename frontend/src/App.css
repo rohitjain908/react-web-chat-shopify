@@ -1,0 +1,55 @@
+:root {
+  --chat-icon-container-dimension: 64px;
+  --chat-icon-container-bottom: 20px;
+  --gradient-sunburst: linear-gradient(89deg, #ed5635 2.18%, #ff9800 95.91%);
+  --ub-orange: #ff9800;
+  --ub-orange-light: #fff2e3;
+  --ub-light-black: rgba(33, 35, 53, 0.94);
+  --ub-bubble-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.App > img {
+  width: 100%;
+  height: 100%;
+}
+
+.ub-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--UB-App-BG, #fafafa);
+}
+
+.header-banner {
+  display: flex;
+  align-items: center;
+}
+
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+  align-items: start;
+}
+
+.header-text {
+  color: var(--White, #fff);
+}
+
+.header-text.header-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header-text.header-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
